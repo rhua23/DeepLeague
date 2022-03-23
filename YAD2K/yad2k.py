@@ -15,7 +15,7 @@ import numpy as np
 from tensorflow.keras import backend as K
 from tensorflow.keras.layers import (Conv2D, GlobalAveragePooling2D, Input, Lambda,
                           MaxPooling2D)
-from tensorflow.keras.layers.advanced_activations import LeakyReLU
+from tf.keras.layers.advanced_activations import LeakyReLU
 from tensorflow.keras.layers.merge import concatenate
 from tensorflow.keras.layers.normalization import BatchNormalization
 from tensorflow.keras.models import Model
