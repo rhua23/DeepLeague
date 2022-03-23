@@ -3,10 +3,10 @@ import sys
 
 import numpy as np
 import tensorflow as tf
-from keras import backend as K
-from keras.layers import Lambda
-from keras.layers.merge import concatenate
-from keras.models import Model
+from tensorflow.keras import backend as K
+from tensorflow.keras.layers import Lambda
+from tensorflow.keras.layers.merge import concatenate
+from tensorflow.keras.models import Model
 
 from ..utils import compose
 from .keras_darknet19 import (DarknetConv2D, DarknetConv2D_BN_Leaky,
