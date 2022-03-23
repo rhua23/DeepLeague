@@ -12,15 +12,15 @@ import os
 from collections import defaultdict
 
 import numpy as np
-from tensorflow.keras import backend as K
-from tensorflow.keras.layers import (Conv2D, GlobalAveragePooling2D, Input, Lambda,
+from keras import backend as K
+from keras.layers import (Conv2D, GlobalAveragePooling2D, Input, Lambda,
                           MaxPooling2D)
-from tensorflow.keras.layers.advanced_activations import LeakyReLU
-from tensorflow.keras.layers.merge import concatenate
+from keras.layers.advanced_activations import LeakyReLU
+from keras.layers.merge import concatenate
 from tensorflow.keras.layers.normalization import BatchNormalization
-from tensorflow.keras.models import Model
-from tensorflow.keras.regularizers import l2
-from tensorflow.keras.utils.vis_utils import plot_model as plot
+from keras.models import Model
+from keras.regularizers import l2
+from keras.utils.vis_utils import plot_model as plot
 
 from yad2k.models.keras_yolo import (space_to_depth_x2,
                                      space_to_depth_x2_output_shape)
